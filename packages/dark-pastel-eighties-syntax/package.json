@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+        "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-11713-6382-fx7ynu"
+    ]
+  ],
+  "_from": "../d-11713-6382-11gwyps/package.tgz",
+  "_id": "dark-pastel-eighties-syntax@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/dark-pastel-eighties-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+    "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11713-6382-11gwyps/package.tgz",
+  "_shasum": "73c8d15dc8e51eba53aad168c728f5b2c392f578",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-6382-11gwyps/package.tgz",
+  "_where": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-11713-6382-fx7ynu",
+  "bugs": {
+    "url": "https://github.com/akonwi/dark-pastel-eighties-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "eighties friendly pastel theme for atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/akonwi/dark-pastel-eighties-syntax#readme",
+  "license": "MIT",
+  "name": "dark-pastel-eighties-syntax",
+  "optionalDependencies": {},
+  "readme": "# dark-pastel-eighties-syntax theme\n\n![screenshot](https://raw.githubusercontent.com/akonwi/dark-pastel-eighties-syntax/master/screenshot.png)\n\nA fork of [dark-pastel](https://github.com/jenius/dark-pastel-atom-theme) that is a bit darker with my minor style preferences.\n\nIt goes well with the [spacegray-eighties-ui](https://atom.io/packages/spacegray-eighties-ui).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akonwi/dark-pastel-eighties-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.0"
+}

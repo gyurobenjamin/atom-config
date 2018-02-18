@@ -1,0 +1,1 @@
+{"source":".theme-flatland-dark-ui .tool-bar-top {\n  border-left: 0 none;\n  border-top: 0 none;\n  border-right: 0 none;\n}\n.theme-flatland-dark-ui .tool-bar-right {\n  border-bottom: 0 none;\n  border-top: 0 none;\n  border-right: 0 none;\n}\n.theme-flatland-dark-ui .tool-bar-bottom {\n  border: 0 none;\n}\n.theme-flatland-dark-ui .tool-bar-left {\n  border: 0 none;\n}\n"}

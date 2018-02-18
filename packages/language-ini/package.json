@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+        "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-117127-23839-1ejxpqv"
+    ]
+  ],
+  "_from": "../d-117127-23839-t4rj46/package.tgz",
+  "_id": "language-ini@1.18.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-ini",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+    "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117127-23839-t4rj46/package.tgz",
+  "_shasum": "270d499db1f65a35791dfdf0bb1128345036400c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117127-23839-t4rj46/package.tgz",
+  "_where": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-117127-23839-1ejxpqv",
+  "author": {
+    "name": "Jacob Bednarz",
+    "email": "jacob.bednarz@gmail.com",
+    "url": "https://jacobbednarz.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/jacobbednarz/atom-language-ini/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax support for ini files.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jacobbednarz/atom-language-ini",
+  "license": "MIT",
+  "name": "language-ini",
+  "optionalDependencies": {},
+  "readme": "# Syntax support for INI files in Atom\n\nContributions are welcome and bonus are awarded for pull requests. Please fork and send a pull requests for updates to grammars, snippets or documentation.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbednarz/atom-language-ini.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.18.0"
+}

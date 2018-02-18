@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+        "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-11713-7102-9l6rfb"
+    ]
+  ],
+  "_from": "../d-11713-7102-177o3rx/package.tgz",
+  "_id": "laravel@0.7.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/laravel",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+    "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11713-7102-177o3rx/package.tgz",
+  "_shasum": "68dce9c0e6d7bfba97a73679d43b5cc347aa54c0",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-11713-7102-177o3rx/package.tgz",
+  "_where": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-11713-7102-9l6rfb",
+  "bugs": {
+    "url": "https://github.com/Cronos87/atom-laravel/issues"
+  },
+  "dependencies": {},
+  "description": "Add Laravel snippets",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Cronos87/atom-laravel#readme",
+  "license": "MIT",
+  "name": "laravel",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "# Laravel 5 package\n\nAdd Laravel snippets\n\n* Laravel 5 snippets\n* Helpers snippets\n\n## Credits\n\nFork of [loranger original textmate bundle](https://github.com/loranger/Laravel.tmbundle) works\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cronos87/atom-laravel.git"
+  },
+  "version": "0.7.1"
+}

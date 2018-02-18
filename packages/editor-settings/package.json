@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+        "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-117111-14110-189eswg"
+    ]
+  ],
+  "_from": "../d-117111-14110-ssjvwn/package.tgz",
+  "_id": "editor-settings@1.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/editor-settings",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+    "spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117111-14110-ssjvwn/package.tgz",
+  "_shasum": "adc36a02904f5c84a798a05d68e392408dd4709b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/d-117111-14110-ssjvwn/package.tgz",
+  "_where": "/private/var/folders/q9/h4vtr1k93dg6pt4s9sbh46cw0000gn/T/apm-install-dir-117111-14110-189eswg",
+  "bugs": {
+    "url": "https://github.com/nirix/atom-editor-settings/issues"
+  },
+  "dependencies": {
+    "cson-parser": "~1.0.0"
+  },
+  "description": "Editor settings per-language, extension and directory.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nirix/atom-editor-settings#readme",
+  "keywords": [
+    "editor",
+    "settings",
+    "syntax",
+    "grammar",
+    "language",
+    "project",
+    "directory",
+    "specific",
+    "context"
+  ],
+  "license": "MIT",
+  "main": "./lib/editor-settings",
+  "name": "editor-settings",
+  "optionalDependencies": {},
+  "readme": "# editor-settings package\n\nAdds support for per-language, file extension and directory editor settings.\n\n## How to use it\n### Global configuration\n\nOpen a file you'd like to configure the settings for, ensure that its grammar is correctly\ndetected (look at the grammar selector in the bottom right corner of Atom or press ⌃⇧L)\nand open the command palette (⌘⇧P or ⌃⇧P). Type `Editor Settings: Open Grammar Config`\nand press ⏎.\n\nA new `.cson` file for the grammar of the file you had open should show with the current\neditor settings for the given grammar. Edit it and save.\n\nThe language/grammar settings files are saved in the `grammar-config` directory located\nin the main Atom configuration directory with a lower-case file name format.\n\nFor example, the config file for CoffeeScript would be `coffeescript.cson`.\n\n### Local configuration\n\nFor a per directory based configuration, you can create a `.editor-settings` file in the\nconcerned directories.\n\n### Supported settings\n\nThe API for setting editor settings currently only supports:\n\n- Tab length (tabLength)\n- Soft/hard tabs (softTabs)\n- Soft wrap (softWrap)\n- Encoding (encoding)\n- Atom and Syntax theme (themes)\n\n### Example configuration\n\nThe following example is for CoffeeScript, it sets the tab length to `2`, but if\nthe file extension is `.cson` it sets it to `4`.\n\n    tabLength: 2\n    extensionConfig:\n      cson:\n        tabLength: 4\n\n#### Experimental settings:\n\n    fontFamily: 'Source Code Pro'\n    grammarConfig:\n      'GitHub Markdown':\n        fontFamily: 'monospace'\n\n\n#### Example project and directory configuration\n\nAll options not nested under a specific grammar are used for all grammar and extensions.\n\n    tabLength: 2\n    themes: ['atom-light-ui', 'atom-light-syntax']\n    grammarConfig:\n      'PHP':\n        tabLength: 4\n        softTabs: true\n        extensionConfig:\n          phtml:\n            softTabs: false\n\n## Features\n\n- Per-language support\n- Per-file extension support\n- Per-project support\n- Per-directory support\n\n### Planned\n\n- Change configuration directory\n\nIf there is a feature you'd like added simply create an issue or fork and implement it and send a pull request.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirix/atom-editor-settings.git"
+  },
+  "version": "1.1.2"
+}
